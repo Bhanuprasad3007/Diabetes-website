@@ -1,0 +1,239 @@
+{
+    "intents": [
+      {
+        "intent": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "How are you?",
+          "What's up?"
+        ],
+        "responses": [
+          "Hello! How can I assist you with your diet today?",
+          "Hi there! Ready to give you some diet suggestions!",
+          "Hey! What can I help you with regarding your diet?"
+        ]
+      },
+      {
+        "intent": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "See you",
+          "Bye",
+          "Take care",
+          "Talk later"
+        ],
+        "responses": [
+          "Goodbye! Take care and stay healthy!",
+          "See you soon! Keep eating healthy!",
+          "Take care! Stay fit and healthy!"
+        ]
+      },
+      {
+        "intent": "diet_type",
+        "patterns": [
+          "I'm vegetarian",
+          "I eat only plants",
+          "I prefer vegetarian meals",
+          "I am vegan",
+          "I'm a vegetarian",
+          "I only eat plant-based food"
+        ],
+        "responses": [
+          "Great! I will suggest vegetarian meals for you.",
+          "How about some delicious vegetarian recipes?",
+          "I got you covered! I'll suggest vegetarian meals."
+        ]
+      },
+      {
+        "intent": "diet_goal",
+        "patterns": [
+          "I want to lose weight",
+          "I'm trying to lose weight",
+          "I want to gain weight",
+          "I'm trying to gain muscle",
+          "I want to stay healthy",
+          "I'm looking for weight loss",
+          "Help me gain weight",
+          "I'm bulking"
+        ],
+        "responses": [
+          "Got it! Let's focus on a weight loss plan.",
+          "Let's aim for a leaner body. I can suggest healthy weight loss meals.",
+          "How about some muscle-gaining foods? I can suggest high-protein meals.",
+          "I can help you with a balanced diet plan for staying healthy."
+        ]
+      },
+      {
+        "intent": "meal_suggestion",
+        "patterns": [
+          "Suggest a meal",
+          "What can I eat?",
+          "Give me a meal plan",
+          "What should I eat for dinner?",
+          "What should I have for lunch?"
+        ],
+        "responses": [
+          "How about a smoothie bowl with fruits and chia seeds?",
+          "You can try grilled chicken with steamed vegetables.",
+          "How about a quinoa salad with chickpeas and olive oil?",
+          "Try a tofu stir-fry with broccoli and bell peppers.",
+          "A bowl of oatmeal with almonds and honey is a great choice."
+        ]
+      },
+      {
+        "intent": "calorie_intake",
+        "patterns": [
+          "How many calories should I eat?",
+          "How many calories are in this meal?",
+          "Tell me the calories for this food",
+          "What's the calorie count for this meal?"
+        ],
+        "responses": [
+          "I can help you calculate the calories. Please tell me the food item.",
+          "Could you specify the food or meal? I'll estimate the calorie count.",
+          "Calories depend on the portion size and ingredients. What meal are you referring to?"
+        ]
+      },
+      {
+        "intent": "snacks",
+        "patterns": [
+          "Suggest some snacks",
+          "What are some healthy snacks?",
+          "Give me snack ideas",
+          "Healthy snacks for weight loss",
+          "What should I snack on?"
+        ],
+        "responses": [
+          "Try some mixed nuts with dried fruits.",
+          "How about carrot sticks with hummus?",
+          "You can have Greek yogurt with a handful of berries.",
+          "Sliced apple with almond butter is a great snack.",
+          "A handful of pumpkin seeds is a healthy option."
+        ]
+      },
+      {
+        "intent": "meal_preference",
+        "patterns": [
+          "I want a low-carb meal",
+          "Give me low-carb suggestions",
+          "I prefer high-protein meals",
+          "Can you recommend low-fat meals?",
+          "I'm looking for vegan options"
+        ],
+        "responses": [
+          "How about a grilled salmon with sautéed spinach for a high-protein, low-carb meal?",
+          "A salad with grilled chicken and olive oil is a great low-carb option.",
+          "Try a lentil stew for a healthy, high-protein, low-fat meal.",
+          "You can try a vegan quinoa and chickpea salad with avocado."
+        ]
+      },
+      {
+        "intent": "meal_time",
+        "patterns": [
+          "What should I eat for breakfast?",
+          "Give me some lunch ideas",
+          "What should I eat for dinner?",
+          "What can I have for brunch?"
+        ],
+        "responses": [
+          "For breakfast, how about scrambled eggs with avocado on whole-grain toast?",
+          "Try a grilled chicken wrap for lunch, it’s quick and healthy.",
+          "For dinner, how about a baked salmon with roasted vegetables?",
+          "A bowl of mixed berries with almond milk would be a great brunch."
+        ]
+      },
+      {
+        "intent": "allergies",
+        "patterns": [
+          "I am allergic to nuts",
+          "I can't have dairy",
+          "I have a gluten allergy",
+          "I'm allergic to soy",
+          "Do you have gluten-free options?"
+        ],
+        "responses": [
+          "No worries, I’ll suggest nut-free meals for you.",
+          "I can suggest dairy-free meals. Let me know your preferences.",
+          "I have a list of gluten-free meal options for you.",
+          "Let me suggest soy-free meals. What are your preferences?"
+        ]
+      },
+      {
+        "intent": "food_info",
+        "patterns": [
+          "Tell me about avocados",
+          "What are the health benefits of eggs?",
+          "Why should I eat quinoa?",
+          "What are the benefits of eating almonds?"
+        ],
+        "responses": [
+          "Avocados are rich in healthy fats, great for heart health!",
+          "Eggs are an excellent source of protein and contain essential nutrients.",
+          "Quinoa is a complete protein, high in fiber, and gluten-free!",
+          "Almonds are packed with healthy fats, vitamin E, and fiber."
+        ]
+      },
+      {
+        "intent": "food_pairings",
+        "patterns": [
+          "What goes well with spinach?",
+          "What can I pair with chicken?",
+          "What goes with quinoa?",
+          "What should I pair with rice?"
+        ],
+        "responses": [
+          "Spinach pairs well with eggs, cheese, or grilled chicken.",
+          "Chicken goes great with steamed broccoli, roasted vegetables, or quinoa.",
+          "You can pair quinoa with beans, roasted veggies, or chicken.",
+          "Rice pairs wonderfully with grilled meats, tofu, or vegetables."
+        ]
+      },
+      {
+        "intent": "exercise_and_diet",
+        "patterns": [
+          "What should I eat before a workout?",
+          "What should I eat after a workout?",
+          "Give me diet suggestions for weight training",
+          "What is a good pre-workout meal?"
+        ],
+        "responses": [
+          "Before a workout, you can have a banana with peanut butter for energy.",
+          "Post-workout, try a protein shake with a source of carbs like a sweet potato.",
+          "For weight training, focus on high-protein meals with moderate carbs.",
+          "A good pre-workout meal is a smoothie with protein and complex carbs like oats."
+        ]
+      },
+      {
+        "intent": "meal_plan",
+        "patterns": [
+          "Create a weekly meal plan",
+          "Give me a meal plan for weight loss",
+          "I need a high-protein meal plan",
+          "What’s a good meal plan for muscle gain?"
+        ],
+        "responses": [
+          "For a weight loss meal plan, I recommend meals with lots of veggies, lean proteins, and whole grains.",
+          "I can suggest a high-protein meal plan with chicken, fish, tofu, and legumes.",
+          "For muscle gain, focus on protein-rich meals with carbs for energy. I'll recommend some meals for you."
+        ]
+      },
+      {
+        "intent": "feedback",
+        "patterns": [
+          "Your suggestions were great!",
+          "I didn't like your suggestions",
+          "This diet worked well for me",
+          "I didn’t enjoy the meals"
+        ],
+        "responses": [
+          "Thank you! I’m glad you found the suggestions helpful.",
+          "Sorry to hear that. Let me try again and provide different suggestions.",
+          "Glad to know that! Feel free to ask for more personalized meals.",
+          "Sorry about that! I’ll refine my suggestions next time."
+        ]
+      }
+    ]
+  }
